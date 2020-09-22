@@ -35,6 +35,7 @@ class _DiscoverState extends State<Discover>{
       //   centerTitle: true,
       // ),
       // body: Body(),
+     // body: DiscoverBody(),
       body: IndexedStack(
         index: _selectedPage,
         children: pageList,
